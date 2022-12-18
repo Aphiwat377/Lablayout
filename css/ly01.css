@@ -1,0 +1,65 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-color: rgb(162, 155, 155);
+    padding: 20px 20px 40px 20px;
+}
+
+.logo{
+    background-color: aqua;
+    padding: 15px;
+}
+
+.nav{
+    background-color: rgb(122, 72, 222);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+.header{
+    
+    background-color: rgb(232, 70, 197);
+    padding: 50;
+    margin-bottom: 5px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar{
+    background-color: rgb(198, 54, 75);
+    display: flex;
+    flex: 1;
+    height: 480px;
+    margin-right: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.body{
+    background-color: rgb(175, 116, 241);
+    display: flex;
+    flex: 2;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color: rgb(23, 109, 109);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
